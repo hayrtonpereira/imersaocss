@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://data.whicdn.com/images/180851656/original.jpg");
+    background-size: auto 100vh;
+    font-family: arial;
+    height: 100vh;
+    }
+  
+  .menu {
+    background-color: #335588;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* Seletor hierárquico */
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: white;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
